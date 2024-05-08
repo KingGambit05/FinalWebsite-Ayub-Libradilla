@@ -1,0 +1,80 @@
+
+
+
+/*---------- main ----------*/
+
+
+/* search section */
+
+
+.search{
+  display: flex;
+  padding: 40px 80px;
+  background-color: #eee;
+  justify-content: space-evenly;
+  height: 40vh;
+  flex-direction: column;
+}
+.search .search-bar{
+  width: 100%;
+  height: 8vh;
+}
+.search .filter{
+  overflow-x: auto;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.search .filter-box{
+  border: 1px solid black;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* buy car browse section */
+
+.buy-car-browse{
+  padding: 40px 80px;
+  background-color: #ddd;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.card{
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+  width: 300px;
+  height: 350px;
+  border-radius: 5px 0px 5px 5px;
+  background-color: white;
+  margin-bottom: 60px;
+}
+.image{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
+.card-description{
+  width: 100%;
+  height: 60%;
+  padding: 5px 10px;
+}
+.card-description p{
+  font-size: 14px;
+  color: grey;
+}
+.card-description .prize h4{
+  font-size: 16px;
+}
+.card-description .prize span{
+  font-size: 30px;
+  color: red;
+}
+.card-description .prize{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RJCARZ</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <link rel="stylesheet" href="/Landing-page/landing-style.css">
+
+  <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+
+<body>
+
+  <header>
+    <section class="navigation">
+      <section class="popup-container">
+        <section class="popup">
+          <div class="popup-content">
+            <i class="fa-solid fa-circle-xmark close"></i>
+            <i class="fa-solid fa-car-side" id="grow"></i>
+            <h1>Log in</h1>
+            <input type="email" placeholder="Email">
+            <input type="password" name="password" id="" placeholder="Password">
+            <a href="" class="button">Login</a>
+            <label for="register"></label>
+          </div>
+        </section>
+      </section>
+      
+    
+    
+      <section class="navbar">
+
+        <section class="head-sidebar">
+          <label>
+            <input type="checkbox" class="sidebar">
+            <div class="toggle">
+              <span class="top_line common"></span>
+              <span class="middle_line common"></span>
+              <span class="bottom_line common"></span>
+            </div>
+      
+            <div class="slide">
+              <a href="../index.html"><h1><i class="fa-solid fa-car-side"></i>RJCARZ</h1></a>
+              <ul>
+                <li><a href="../Buy-car/buy-car.html"><b>Buy Car</b></a></li>
+                <li><a href="../FAQ/faq.html"><b>FAQ</b></a></li>
+                <li><a href="../About-us/about-us.html"><b>About Us</b></a></li>
+              </ul>
+            </div>
+          </label>
+
+        </section>
+
+          <ul class="nav">
+            <li><a href="../index.html"><span id="logo"><i class="fa-solid fa-car-side"></i></i>RJCARZ</a></li></span>
+            <li class="effect"><a href="../Buy-car/buy-car.html"><b>Buy Car</b></a></li>
+            <li class="effect"><a href="../FAQ/faq.html"><b>FAQ</b></a></li>
+            <li class="effect"><a href="../About-us/about-us.html"><b>About us</b></a></li>
+          </ul>
+    
+    
+          <section class="container-signup">
+            <div id="blank"></div>
+    
+            <ul class="signup">
+              <a href="../Create-Account/Create.html"><li><button class="move" class="">Sign-up</button></li></a>
+              <li id="line">│</li>
+              <li><button class="move" id="login">Login</button></li>
+            </section>
+          </ul>
+      </section>
+    </section>
+  </header>
+
+
+  <!-- Main -->
+  <main>
+
+<!-- slide show section -->
+    <section class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1</div>
+        <img src="../Sources/exampleImg3.jpg" style="width: 100%;">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2</div>
+        <img src="../Sources/exampleImg4.jpg" style="width: 100%;">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3</div>
+        <img src="../Sources/exampleImg3.jpg" style="width: 100%;">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">4</div>
+        <img src="../Sources/exampleImg4.jpg" style="width: 100%;">
+      </div>
+  
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+  
+      <div style="text-align: center;">
+        <span class="dot" onclick="currentSlides(1)"></span>
+        <span class="dot" onclick="currentSlides(2)"></span>
+        <span class="dot" onclick="currentSlides(3)"></span>
+        <span class="dot" onclick="currentSlides(4)"></span>
+      </div>
+    </section>
+
+<!-- buy sell box section -->
+    <section class="buy-sell-box">
+      <section class="buy">
+        <h2>Buy Car</h2>
+        <input type="text" placeholder="Search">
+        <div class="advertise-container">
+          <div class="advertise-card"></div>
+          <div class="advertise-card"></div>
+          <div class="advertise-card"></div>
+          <div class="advertise-card"></div>
+        </div>
+        <br>
+        <div class="brands-container">
+          <div class="brands-box"></div>
+          <div class="brands-box"></div>
+          <div class="brands-box"></div>
+          <div class="brands-box"></div>
+          <div class="brands-box"></div>
+          <div class="brands-box"></div>
+          <div class="brands-box"></div>
+          <div class="brands-box"></div>
+        </div>
+        <br>
+        <div class="type-container">
+          <div class="type-box"><img src="../Sources/Pictures/Hatchback.jpg" alt=""><span>Hatchback</span></div>
+          <div class="type-box"><img src="../Sources/Pictures/Hatchback.jpg" alt=""><span>Hatchback</span></div>
+          <div class="type-box"><img src="../Sources/Pictures/Hatchback.jpg" alt=""><span>Hatchback</span></div>
+          <div class="type-box"><img src="../Sources/Pictures/Hatchback.jpg" alt=""><span>Hatchback</span></div>
+        </div>
+        <div>
+          
+      </section>
+    
+      </section>
+    </section>
+
+    
+<!-- browse cars section -->
+    <section class="browse-cars">
+      <h1>Browse Car</h1>
+      <br><br>
+        <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><div class="card">
+          <a href="../Car-details/car-details.html"><img src="../Sources/Pictures/honda.jpg" alt="" class="image"></a>
+          <div class="card-description">
+            <h2>2019 Honda</h2>
+            <h2>City E 1.5</h2>
+            <br>
+            <p>51,958km • Automatic • Metro Manila</p>
+            <br>
+            <div class="prize">
+              <h3>PHP<span>560,000</span></h3>
+            <h4>PHP 10,780/mo</h4>
+            </div>
+          </div>
+        </div></div>
+        <div class="swiper-slide"><div class="card">
+          <a href="../Car-details/car-details.html"><img src="../Sources/Pictures/honda.jpg" alt="" class="image"></a>
+          <div class="card-description">
+            <h2>2019 Honda</h2>
+            <h2>City E 1.5</h2>
+            <br>
+            <p>51,958km • Automatic • Metro Manila</p>
+            <br>
+            <div class="prize">
+              <h3>PHP<span>560,000</span></h3>
+            <h4>PHP 10,780/mo</h4>
+            </div>
+          </div>
+        </div></div>
+        <div class="swiper-slide"><div class="card">
+          <a href="../Car-details/car-details.html"><img src="../Sources/Pictures/honda.jpg" alt="" class="image"></a>
+          <div class="card-description">
+            <h2>2019 Honda</h2>
+            <h2>City E 1.5</h2>
+            <br>
+            <p>51,958km • Automatic • Metro Manila</p>
+            <br>
+            <div class="prize">
+              <h3>PHP<span>560,000</span></h3>
+            <h4>PHP 10,780/mo</h4>
+            </div>
+          </div>
+        </div></div>
+        <div class="swiper-slide"><div class="card">
+          <a href="../Car-details/car-details.html"><img src="../Sources/Pictures/honda.jpg" alt="" class="image"></a>
+          <div class="card-description">
+            <h2>2019 Honda</h2>
+            <h2>City E 1.5</h2>
+            <br>
+            <p>51,958km • Automatic • Metro Manila</p>
+            <br>
+            <div class="prize">
+              <h3>PHP<span>560,000</span></h3>
+            <h4>PHP 10,780/mo</h4>
+            </div>
+          </div>
+        </div></div>
+        ...
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+  
+    </div>
+  
+    <div class="pagination_">
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"><img src="../Sources/icons/back.svg" alt=""></div>
+      <div class="swiper-button-next"><img src="../Sources/icons/forward.svg" alt=""></div>
+    </div>
+
+    </section>
+<!-- how it works section -->
+    <section class="how-it-works">
+    
+      <div class="switch-container">
+  
+        <h1>HOW IT WORKS</h1>
+  
+        <div class="switch">
+          <div class="switch-buy" onclick="tab1();">How to buy</div>
+          <div class="switch-sell" onclick="tab2();">How to inquire</div>
+        </div>
+  
+        <div class="outer">
+          <div class="overflow">
+            <div class="how-to-buy">
+              <div class="card">1</div>
+              <div class="card">2</div>
+              <div class="card">3</div>
+              <div class="card">4</div>
+            </div>
+      
+            <div class="how-to-sell">
+              <div class="card">5</div>
+              <div class="card">6</div>
+              <div class="card">7</div>
+              <div class="card">8</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- FAQ section -->
+    <h1 id="mid">FAQ</h1>
+      <section class="faq">
+        <br><br><br><br>
+        <div class="faq-wrapper">
+          <div class="collapse">
+            <input type="checkbox" id="collapse-head">
+            <label for="collapse-head">NIGGA1 <i class="fa-solid fa-chevron-down"></i></label>
+            <div class="collapse-text">
+              <h2>TITLE</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, voluptas ab, eos cumque odio quam sequi consequuntur voluptate commodi hic iure porro sed velit ut? Nostrum fugit nisi tempora magni.
+              </p>
+            </div>
+          </div><br>
+          <div class="collapse">
+            <input type="checkbox" id="collapse-head2">
+            <label for="collapse-head2">NIGGA2 <i class="fa-solid fa-chevron-down"></i></label>
+            <div class="collapse-text">
+              <h2>TITLE</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, voluptas ab, eos cumque odio quam sequi consequuntur voluptate commodi hic iure porro sed velit ut? Nostrum fugit nisi tempora magni.
+              </p>
+            </div>
+          </div><br>
+          <div class="collapse">
+            <input type="checkbox" id="collapse-head3">
+            <label for="collapse-head3">NIGGA3 <i class="fa-solid fa-chevron-down"></i></label>
+            <div class="collapse-text">
+              <h2>TITLE</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, voluptas ab, eos cumque odio quam sequi consequuntur voluptate commodi hic iure porro sed velit ut? Nostrum fugit nisi tempora magni.
+              </p>
+            </div>
+          </div><br>
+        </div>
+      </section>
+  </main>
+  <br><br><br>
+
+  <!-- --Footer-- -->
+  <footer>
+    <section class="popular-car">
+      <h1 class="cent">Popular Used Cars For Sale</h1>
+      <ul class="popular-container">
+        <li><a href=""><h3>Used honda</h3></a></li>
+        <li><a href=""><h3>Used Hyundai</h3></a></li>
+        <li><a href=""><h3>Used Toyota</h3></a></li>
+      </ul>
+    </section>
+
+    <section class="foot">
+      <section class="foot-logo">
+        <i class="fa-solid fa-car-side">RJ CARZ</i>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam cupiditate nihil voluptatem eum, similique cumque voluptatibus. Est, esse consectetur odit adipisci iste, quo nostrum voluptates asperiores praesentium eius amet laudantium.</p>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </section>
+
+      <div class="foot-sub">
+        <h4>Subscribe</h4>
+        <p>Get the latest discounts, promotions & exclusive benefits delivered straight to your inbox.</p>
+        <div class="email-submitter">
+          <input id="foot-input" type="text" placeholder="email address">
+          <button>Submit</button>
+        </div>
+        
+        <div class="foot-box-container">
+          <div class="foot-sub-box"><span class="white">Service</span> <br><br>
+            Buy Car <br>
+          </div>
+          <div class="foot-sub-box"><span class="white">Support</span><br><br>
+            FAQ<br>
+            Contact Us<br>
+            Locate Us</div>
+          <div class="foot-sub-box"><span class="white">About RJCARZ</span><br><br>
+            Our Story<br>
+            Buying from RJCARZ<br>
+            Quality Assured Cars<br>
+            Careers
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="foot2">
+      <p>© 2016-2023 CARSOME Sdn Bhd (201401025864) All rights reserved.
+        Privacy Policy│Terms of Use</p>
+
+
+        <select name="" id="" class="languange">
+          <option value=""></option>
+          <option value=""></option>
+          <option value=""></option>
+          <option value=""></option>
+        </select>
+    </section>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="../JavaScript/script.js"></script>
+  
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+.car-picture-container{
+  padding: 20px 20px;
+  width: 100%;
+  display: flex;
+}
+.car-picture-container .car-description-submit{
+  width: 100%;
+  background-color: #fff;
+  height: 8vh;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.car-picture-container .car-pictures{
+  width: 70%;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+.car-picture-container .car-pictures img{
+  height: 80vh;
+  border-radius: 20px;
+}
+.car-picture-container .car-description-container{
+  width: 30%;
+}
+.car-picture-container .car-description-container .car-description{
+  padding: 20px 20px 20px 0;
+  border-bottom: 1px solid grey;
+}
+.car-picture-container .price-location{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 20px 0;
+  border-bottom: 1px solid grey;
+  margin-bottom: 20px;
+}
+
+/* car data container section */
+
+.car-data-container{
+  padding: 15px 0px;
+  max-width: 1212px;
+  margin: auto;
+  text-align: center;
+}
+.car-data-container span b{
+  font-size: 32px;
+}
+.car-data-container .car-data{
+  width: 100%;
+  border-top: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.car-data-container .car-data .car-data-info, .car-data-container .car-data .car-data-info1{
+  padding: 10px 0px 15px 0px;
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+}
+.car-data-container .car-data .car-data-info{
+  border-bottom: 1px grey solid;
+}

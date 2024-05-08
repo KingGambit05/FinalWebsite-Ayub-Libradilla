@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section{
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper{
+  width: calc(100% - 20%);
+  height: calc(80vh - 4rem);
+  border-radius: 8px;
+}
+.swiper-slide > img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.pagination_{
+  position: absolute;
+  width: calc(100% - 10%);
+}
+.pagination_ div[class^="swiper-button"]::after{
+  display: none;
+}
+.pagination_ div[class^="swiper-button"]{
+  width: 45px;
+  height: 45px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.pagination_ div[class^="swiper-button"] img{
+  width: 60%;
+}
+
+/* slider section */
+
+.mySlides{
+  display: none;
+}
+img{
+  vertical-align: middle;
+}
+.slideshow-container{
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+.prev, .next{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next{
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.text{
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 8px;
+}
+.numbertext{
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+}
+.dot{
+  top: -25px;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover{
+  background-color: #717171;
+}
+.fade{
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade{
+  from{
+    opacity: .4;
+  }
+  to{
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from{
+    opacity: 0.4;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width:300px) {
+  .prev, .next, .text{
+    font-size: 11px;
+  }
+  .dot{
+    height: 10px;
+    width: 10px;
+  }
+}
+@media only screen and (max-width:500px) {
+  .prev, .next, .text{
+    font-size: 14px;
+  }
+}

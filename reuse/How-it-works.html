@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="reuseCode.css">
+</head>
+<body>
+  
+  <section class="how-it-works">
+    
+    <div class="switch-container">
+
+    <h1>HOW IT WORKS</h1>
+
+      <div class="switch">
+        <div class="switch-buy" onclick="tab1();">How to buy</div>
+        <div class="switch-sell" onclick="tab2();">How to sell</div>
+      </div>
+
+      <div class="outer">
+        <div class="overflow">
+          <div class="how-to-buy" onclick="show()">
+            <div class="card">1</div>
+            <div class="card">2</div>
+            <div class="card">3</div>
+            <div class="card">4</div>
+          </div>
+    
+          <div class="how-to-sell" onclick="show()">
+            <div class="card">5</div>
+            <div class="card">6</div>
+            <div class="card">7</div>
+            <div class="card">8</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script>
+    const buy = document.querySelector(".switch-buy");
+    const sell = document.querySelector(".switch-sell");
+    const overflow = document.querySelector(".overflow");
+    const switchs =  document.querySelectorAll(".switch");
+
+    let current = 1;
+
+    function tab1(){
+      overflow.style.marginLeft = "0";
+      sell.style.background = "none";
+      buy.style.background = "red";
+      switchs[current - 1].classList.remove("active");
+    }
+
+    function tab2(){
+      overflow.style.marginLeft = "-100%";
+      buy.style.background = "none";
+      sell.style.background = "cyan";
+      switchs[current - 1].classList.add("active");
+    }
+    
+
+  </script>
+
+  
+</body>
+</html>
